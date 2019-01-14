@@ -3,6 +3,8 @@ require 'uri'
 require_dependency 'redmine_pushover/patches/mailer_patch'
 require_dependency 'redmine_pushover/patches/user_patch'
 require_dependency 'redmine_pushover/patches/user_preference_patch'
+require_dependency 'redmine_pushover/pushover'
+require_dependency 'redmine_pushover/notification'
 
 module RedminePushover
   class << self
